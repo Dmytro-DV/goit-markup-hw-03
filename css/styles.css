@@ -29,9 +29,22 @@ p, h1,h2,h3,h4,h5,h6 {
     margin-bottom: 0;
 }
 
-.header {}
+.container {
+    width: 1158px;
+    padding-left: 15px; 
+    padding-right: 15px; 
+    margin: 0 auto;
+    outline: 2px solid tomato;
+}
 
-.header-navigation {}
+.header-container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px;
+}
+
+.header-navigation {
+}
 
 .header-logo {
         color: #4D5AE5;
@@ -90,18 +103,26 @@ p, h1,h2,h3,h4,h5,h6 {
     background-color: #2E2F42;
 }
 
+.headline-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
 .headline-slogan {
     color: #FFFFFF;
         text-align: center;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.02em;       
+        width: 496px;
+        margin: 0 auto 48px;
 }
 
 .headline-btn {
     color: #FFFFFF;
     background-color: #4D5AE5;
+        text-align: center;
         font-family: inherit;
         font-size: 16px;
         font-weight: 500;
@@ -114,9 +135,29 @@ p, h1,h2,h3,h4,h5,h6 {
     background-color: #404BBF;
 }
 
-.title {}
+.title {
+}
 
-.title-lead {}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.title-container {
+    padding-top: 120px;
+    padding-bottom: 209px;
+}
+
+.title-lead {
+}
 
 .title-list {}
 
@@ -128,6 +169,7 @@ p, h1,h2,h3,h4,h5,h6 {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
 
 .title-text {
@@ -148,15 +190,21 @@ p, h1,h2,h3,h4,h5,h6 {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        padding-top: 120px;
+        margin: 0 auto;
+        margin-bottom: 72px;
 }
 
 .caption-list {}
 
 .caption-item {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    padding-bottom: 120px;
 }
 
-.caption-pic {}
+.caption-pic {
+    margin-bottom: 32px;
+}
 
 .caption-subtitle {
         color: #2E2F42;
@@ -165,6 +213,7 @@ p, h1,h2,h3,h4,h5,h6 {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
 
 .caption-text {
@@ -172,9 +221,15 @@ p, h1,h2,h3,h4,h5,h6 {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        margin-bottom: 32px;
 }
 
 .subject {}
+
+.subject-container {
+    padding-top: 31px;
+    padding-bottom: 120px;
+}
 
 .subject-lead {
         color: #2E2F42;
@@ -184,13 +239,18 @@ p, h1,h2,h3,h4,h5,h6 {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
+        margin: 0 auto;
+        margin-bottom: 72px;
 }
 
 .subject-list {}
 
-.subject-item {}
+.subject-item {
+}
 
-.subject-pic {}
+.subject-pic {
+}
 
 .subject-subtitle {
         color: #2E2F42;
@@ -198,16 +258,28 @@ p, h1,h2,h3,h4,h5,h6 {
         font-weight: 500;
         line-height: 1.20;
         letter-spacing: 0.02em;
+        padding-top: 32px;
+        margin-bottom: 8px;
 }
 
 .subject-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding-bottom: 32px;
 }
 
 .footer {
     background-color:#2E2F42;
+}
+
+.footer-container {
+    padding-top: 101.5px;
+    padding-bottom: 100px;
+}
+
+.footer-navigation {
+    margin-bottom: 17.5px;
 }
 
 .footer-logo {
@@ -230,4 +302,5 @@ p, h1,h2,h3,h4,h5,h6 {
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        max-width: 264px;
 }
