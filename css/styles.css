@@ -34,16 +34,20 @@ p, h1,h2,h3,h4,h5,h6 {
     padding-left: 15px; 
     padding-right: 15px; 
     margin: 0 auto;
-    outline: 2px solid tomato;
 }
 
 .header-container {
     padding-top: 25px;
     padding-bottom: 25px;
-    border-bottom: 1px;
+    border-bottom: 1px solid #E7E9FC;
+    display: flex;
 }
 
 .header-navigation {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 76px;
 }
 
 .header-logo {
@@ -60,7 +64,10 @@ p, h1,h2,h3,h4,h5,h6 {
     color: #2E2F42;
 }
 
-.header-menu {}
+.header-menu {
+    display: flex;
+    gap: 40px;
+}
 
 .header-item {}
 
@@ -82,7 +89,11 @@ p, h1,h2,h3,h4,h5,h6 {
     font-style: normal
 }
 
-.search-menu {}
+.search-menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
 
 .search-item {}
 
@@ -106,6 +117,10 @@ p, h1,h2,h3,h4,h5,h6 {
 .headline-container {
     padding-top: 188px;
     padding-bottom: 188px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .headline-slogan {
@@ -116,7 +131,7 @@ p, h1,h2,h3,h4,h5,h6 {
         line-height: 1.07;
         letter-spacing: 0.02em;       
         width: 496px;
-        margin: 0 auto 48px;
+        margin-bottom: 48px;
 }
 
 .headline-btn {
@@ -129,6 +144,7 @@ p, h1,h2,h3,h4,h5,h6 {
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+        padding: 16px 32px;       
 }
 
 .headline-btn:hover, .headline-btn:focus {
@@ -159,9 +175,14 @@ p, h1,h2,h3,h4,h5,h6 {
 .title-lead {
 }
 
-.title-list {}
+.title-list {
+    display: flex;
+    gap: 24px;
+}
 
-.title-item {}
+.title-item {
+    width: 264px;
+}
 
 .title-subtitle {
         color: #2E2F42;
@@ -195,11 +216,15 @@ p, h1,h2,h3,h4,h5,h6 {
         margin-bottom: 72px;
 }
 
-.caption-list {}
+.caption-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 
 .caption-item {
     background-color: #FFFFFF;
-    padding-bottom: 120px;
+    margin-bottom: 120px;
 }
 
 .caption-pic {
@@ -244,9 +269,16 @@ p, h1,h2,h3,h4,h5,h6 {
         margin-bottom: 72px;
 }
 
-.subject-list {}
+.subject-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px 24px;
+}
 
 .subject-item {
+
+    width: 360px;height: 420px;
 }
 
 .subject-pic {
@@ -258,7 +290,7 @@ p, h1,h2,h3,h4,h5,h6 {
         font-weight: 500;
         line-height: 1.20;
         letter-spacing: 0.02em;
-        padding-top: 32px;
+        padding: 32px 16px 0;
         margin-bottom: 8px;
 }
 
@@ -266,7 +298,8 @@ p, h1,h2,h3,h4,h5,h6 {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding-bottom: 32px;
+        padding: 0 16px 32px;
+        border-bottom: 1px solid #E7E9FC;
 }
 
 .footer {
